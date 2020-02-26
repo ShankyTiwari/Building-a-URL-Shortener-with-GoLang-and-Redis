@@ -1,6 +1,6 @@
-# connecting-golang-app-to-mysql
+# Building-a-URL-Shortener-with-GoLang-and-Redis
 
-How to connect and use MySql as database with GO lang.
+How URL shorteners work and how we can develop the POD application using GoLang and Redis.
 
 ## Installtion
 
