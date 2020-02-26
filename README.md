@@ -1,4 +1,4 @@
-# Building-a-URL-Shortener-with-GoLang-and-Redis
+# Building a URL Shortener with GoLang and Redis
 
 How URL shorteners work and how we can develop the POD application using GoLang and Redis.
 
