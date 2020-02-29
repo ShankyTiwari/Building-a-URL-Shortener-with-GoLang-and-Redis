@@ -4,8 +4,6 @@ const resultContainer = document.querySelector('.app__shorturl-result');
 const actualUrl = document.querySelector('.app__actual-url');
 const shortUrl = document.querySelector('.app__short-url');
 
-let timeout = null;
-
 generateUrlButton.onclick =  (event) => {
 	const url = urlInputBox.value.trim();
 	getShortUrl(url);
@@ -13,7 +11,7 @@ generateUrlButton.onclick =  (event) => {
 
 function getShortUrl(url) {
 	fetch(`/getShortUrl`, {
-		method: 'POST', // or 'PUT'
+		method: 'POST',
 		headers: {
 			'Content-Type': undefined
 		},
